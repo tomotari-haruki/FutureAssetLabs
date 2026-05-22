@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
-    "build:github": "tsc --noEmit && vite build --base=/FutureAssetLab/ && cp dist/index.html dist/404.html",
+    "build:github": "tsc --noEmit && vite build --base=/FutureAssetLabs/ && cp dist/index.html dist/404.html",
     "postbuild": "cp dist/index.html dist/404.html",
     "preview": "vite preview --host 0.0.0.0"
   },
